@@ -21,3 +21,8 @@ Postscript I went ahead and did something stack-based. It is ugly, but
 it has a conditional branch so ... you can probably do some terrible
 amazing things with it. Today's piece is a straight line with some zig
 zag lines.
+
+### [2.1 (2018-10-02)](2.1)
+
+I took the drawing language and drew some mountains with the sun
+overhead and a like in front of them.
