@@ -27,7 +27,12 @@ zag lines.
 I took the drawing language and drew some mountains with the sun
 overhead and a like in front of them.
 
-### [3 (2018-10-05)])3)
+### [3 (2018-10-05)](3)
 
 I added recursive functions to the drawing language and wrote a
 program that draws a grid of shapes with different numbers of sides.
+
+### [4 (2018-10-09)](4)
+
+I changed the language up a bit and based the drawing on SVG paths,
+mostly focusing on arcs.
