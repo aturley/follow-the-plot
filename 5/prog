@@ -1,0 +1,1 @@
+"fadesqh { dup { 0 50 rand 50 * + dup rot dl -1 * 0 dm 5 - dup 0 5 dm } while drop path } subprog def "fadesqv { dup { 0 50 rand 50 * + dup rot swap dl -1 * 0 swap dm 5 - dup 5 0 dm } while drop path } subprog def "sq { dup rot dup rot dm 100 "fadesqh @ call dM 100 "fadesqv @ call } subprog def 100 100 "sq @ call 200 200 "sq @ call 100 200 "sq @ call path stop
