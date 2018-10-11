@@ -1,0 +1,31 @@
+200 200 dM
+
+0 -50 dl
+50 0 dl
+-50 50 dm
+
+10 dup {
+  dup dup * 100 swap
+  - sqrt
+  dup 5 * 0 dl
+  -1 * 5 * -5 dm
+  1 - dup
+} while
+
+50 0 dm
+
+10 dup {
+  dup dup * 100 swap
+  - sqrt
+  dup 5 * 0 swap dl
+  -1 * 5 * -5 swap dm
+  1 - dup
+} while drop
+
+0 50 dm
+
+50 50 0 0 0 50 -50 da
+
+path
+
+stop

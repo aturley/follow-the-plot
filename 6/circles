@@ -1,0 +1,50 @@
+"burst { pushdict
+  "cy swap def "cx swap def "size swap def
+  dup
+  6.28 swap /
+  "step swap def
+  dup
+  {
+    "cx @ "cy @ dM
+    dup
+    "step @ *
+    dup
+    cos "size @ * swap sin "size @ * dl
+    1 -
+    dup
+  } while
+  drop
+  popdict
+} subprog def
+
+15 50 100 rand 0.5 - 20 * + 100 rand 0.5 - 20 * + "burst @ call
+15 50 130 rand 0.5 - 20 * + 130 rand 0.5 - 20 * + "burst @ call
+15 50 130 rand 0.5 - 20 * + 100 rand 0.5 - 20 * + "burst @ call
+15 50 100 rand 0.5 - 20 * + 130 rand 0.5 - 20 * + "burst @ call
+
+6 6 dup {
+  dup
+  dup
+  rot
+  swap
+  {
+    "y swap def swap "x swap def
+    "x @ "y @ + 3 +
+    50
+    "x @ 30 * 250 + "y @ 30 * 50 +
+    "burst @ call
+    "x @ swap "y @
+    1 -
+    dup
+  } while
+  drop
+  swap
+  1 -
+  dup
+  rot
+  swap
+} while
+drop
+
+path
+stop

@@ -41,3 +41,7 @@ mostly focusing on arcs.
 
 Changed the language name to PostSpite. Added lines and relative
 movement. Drew some squares.
+
+### [6 (2018-10-10)](6)
+
+Created some circle patterns, played with starbursts and densities.
