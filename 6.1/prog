@@ -1,0 +1,48 @@
+"bezqs {
+  pushdict
+  "dcy defx "dcx defx "steps defx "y defx "x defx "cy defx "cx defx
+  "steps @
+  dup
+  {
+    dup
+    dup
+    "dcx @ * "cx @ + swap "dcy @ * "cy @ + "x @ "y @ dq
+    "x @ -1 * "y @ -1 * dm
+    1 -
+    dup
+  } while
+  drop
+  "x @ "y @ dm
+  popdict
+} subprog def
+
+"slot {
+  pushdict
+  "times defx "de defx "ds defx "y defx "x defx
+  "times @
+  dup
+  {
+    dup
+    dup
+    "de @ * "x @ + "y @ dl
+    -1 "de @ * * "x @ - "ds @ - "y @ -1 * dm
+    1 -
+    dup
+  } while
+  drop
+  popdict
+} subprog def
+
+100 200 dM
+100 200 2 20 20 "slot @ call
+path
+
+500 300 dM
+-100 100 -10 -18 20 "slot @ call
+path
+
+100 100 dM
+50 -25 200 50 3 25 -25 "bezqs @ call
+50 50 200 50 3 25 25 "bezqs @ call
+25 -25 200 50 3 25 -25 "bezqs @ call
+path stop
