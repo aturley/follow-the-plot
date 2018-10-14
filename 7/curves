@@ -1,0 +1,13 @@
+"curves {
+  pushdict
+  "pts defx "sy defx "sx defx "cy defx "cx defx
+  "pts @ "curve @ "map @ call
+  popdict
+} subprog def
+
+"curve {
+  "sx @ "sy @ dM
+  "cx @ "cy @
+  rot rec* swap 0 dm 100 dq
+  0
+} subprog def

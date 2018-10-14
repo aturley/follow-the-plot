@@ -48,4 +48,21 @@ Created some circle patterns, played with starbursts and densities.
 
 ### [6.1 (2018-10-11)](6.1)
 
-Curves and some grid fun.
+Added curves and some grid fun.
+
+### [7 (2018-10-11)](7)
+
+I added records to the the drawing language. They're basically lists,
+and they're recursive, so now I'm not stuck with single values on the
+stack and in dictionaries. I also added the ability to run multiple
+files from the command line, so now i can basically build libraries
+and then import them.
+
+Since I have records and libraries I went ahead and wrote a "range"
+function that returns a record with a given number of elements, and a
+"map" function that applies a function to all of the elements of a
+record. Since functions can be referenced without calling them I now
+have a reasonable start to a functional programming language.
+
+With all that excitement I just drew some simple curved lines that
+intersect to form a grid.
