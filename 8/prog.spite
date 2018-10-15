@@ -1,0 +1,15 @@
+"begin {
+  50 200 dM 50 rand * 25 + rand 150 * 100 - 100 200 dQ
+} subprog def
+
+"curves {
+  { dup rec* dT } subprog "map @ call
+} subprog def
+
+10 "range @ call { 10 swap - } subprog "map @ call
+{ 0 rec swap 1 + 50 * rand 0.5 - 20 * + rec+ rand 100 * 150 + rec+ } subprog "map @ call
+"pts defx
+
+7 "range @ call
+{ "begin @ call "pts @ "curves @ call drop path } subprog "map @ call
+stop

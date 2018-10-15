@@ -50,7 +50,7 @@ Created some circle patterns, played with starbursts and densities.
 
 Added curves and some grid fun.
 
-### [7 (2018-10-11)](7)
+### [7 (2018-10-14)](7)
 
 I added records to the the drawing language. They're basically lists,
 and they're recursive, so now I'm not stuck with single values on the
@@ -66,3 +66,9 @@ have a reasonable start to a functional programming language.
 
 With all that excitement I just drew some simple curved lines that
 intersect to form a grid.
+
+### [8 (2018-10-15)](8)
+
+This takes advantage of records to draw a series of cubic curves with
+the same endpoints but different control points. I added a few bits
+and pieces to the language like support for reflected cubic curves.
