@@ -72,3 +72,12 @@ intersect to form a grid.
 This takes advantage of records to draw a series of cubic curves with
 the same endpoints but different control points. I added a few bits
 and pieces to the language like support for reflected cubic curves.
+
+### [9 (2018-10-31)](9)
+
+Added support for comments, drew some circles.
+
+### [10 (2018-10-31)](10)
+
+This one uses Pony instead of PostSpite to do the generation. I
+thought I'd play around and see how it felt to work with Pony.

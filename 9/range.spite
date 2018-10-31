@@ -1,0 +1,13 @@
+"range {
+  pushdict
+  "limit defx
+  0 rec 0 1
+  {
+    dup rot swap rec+ swap
+    1 +
+    dup
+    "limit @ swap -
+  } while
+  drop
+  popdict
+} subprog def

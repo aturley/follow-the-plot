@@ -1,0 +1,15 @@
+"reduce {
+  rot dup
+  recsize
+  {
+    dup "head @ call
+    rot swap
+    3 pick
+    call
+    swap
+    "tail @ call
+    dup
+    recsize
+  } while
+  drop swap drop
+} subprog def

@@ -1,0 +1,23 @@
+"map {
+  pushdict
+  "fn defx "rec defx
+  "rec @ recsize
+  dup
+  rec
+  swap
+  dup
+  {
+    1 -
+    dup
+    rot swap
+    dup
+    "rec @ swap recg
+    "fn @ call
+    swap
+    recp
+    swap
+    dup
+  } while
+  drop
+  popdict
+} subprog def

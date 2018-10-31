@@ -1,0 +1,26 @@
+"head {
+  0 recg
+} subprog def
+
+"tail {
+  dup recsize | old sz |
+  1 - dup | old it it |
+  rec | old it new |
+  swap dup | old new it it |
+  {
+    | old new it |
+    dup | old new it it |
+    3 pick | old new it it old |
+    swap | old new it old it |
+    dup | old new it old it it |
+    rot | old new it it it old |
+    swap | old new it it old it |
+    recg | old new it it v |
+    3 roll | old it it v new |
+    swap rot 1 - | old it new it-1 v |
+    recp | old it new |
+    swap 1 - dup | old new it-1 it-1 |
+  } while
+  | old new it-1 |
+  drop swap drop
+} subprog def
