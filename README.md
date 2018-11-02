@@ -81,3 +81,10 @@ Added support for comments, drew some circles.
 
 This one uses Pony instead of PostSpite to do the generation. I
 thought I'd play around and see how it felt to work with Pony.
+
+### [11 (2018-11-02)](11)
+
+More Pony work. I experimented with drawing some circles and making
+some scribles that vary in intensity depending on the coordinates of
+the piece of the line. I'd like to do more experiments where I vary
+the texture of the image.
