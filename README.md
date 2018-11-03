@@ -88,3 +88,8 @@ More Pony work. I experimented with drawing some circles and making
 some scribles that vary in intensity depending on the coordinates of
 the piece of the line. I'd like to do more experiments where I vary
 the texture of the image.
+
+### [12 (2018-11-02)](12)
+
+This image uses a function that creates rectangles full of scribbles
+of varying densities to represent a sinusoidal field.
