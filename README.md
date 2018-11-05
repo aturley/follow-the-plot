@@ -93,3 +93,9 @@ the texture of the image.
 
 This image uses a function that creates rectangles full of scribbles
 of varying densities to represent a sinusoidal field.
+
+### [13 (2018-11-05)](13)
+
+I took a selfie and then used the scribble code from the last project
+to plot it in black-and-white. There's an absolutely awful BMP reader
+in here that does some of the heavy lifting.
