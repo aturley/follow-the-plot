@@ -99,3 +99,23 @@ of varying densities to represent a sinusoidal field.
 I took a selfie and then used the scribble code from the last project
 to plot it in black-and-white. There's an absolutely awful BMP reader
 in here that does some of the heavy lifting.
+
+### [13 (2018-11-05)](13)
+
+I took a selfie and then used the scribble code from the last project
+to plot it in black-and-white. There's an absolutely awful BMP reader
+in here that does some of the heavy lifting.
+
+### [14 (2018-11-06)](14)
+
+I played around with some CMY (no K) drawing. I generated some random
+paths through a grid and then drew different colored lines on each
+path. The lines are offset a little bit to try to get some blending at
+a distance without actually blending. The line separation turned out
+to be less that required for plotting, so some of the lines are on top
+of each other. The path generation was also a little disappointing. I
+tried both paths that can cross themselves and paths that cannot cross
+themselves, and neither one was completely satisfactory. I ended up
+going with the non-crossing paths, but the result was that the final
+paths were fairly short and each color path only overlapped slightly,
+so there really wasn't much blending.
