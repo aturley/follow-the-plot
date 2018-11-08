@@ -119,3 +119,14 @@ themselves, and neither one was completely satisfactory. I ended up
 going with the non-crossing paths, but the result was that the final
 paths were fairly short and each color path only overlapped slightly,
 so there really wasn't much blending.
+
+### [15 (2018-11-08)](15)
+
+More CMY (no K) drawing. I wrote some code to draw a path and make
+curves when the direction changed. The idea was to generate three
+random paths that overlapped and make each of paths a different
+color. The drawing works reasonably well, but the path generation
+never made me really happ because the paths didn't overlap as much as
+I wanted. I eventually settled on an image that looked OK, but if I
+want to pursue this then the next challenge is finding a useful way to
+generate the paths.
