@@ -158,3 +158,17 @@ want to pursue this then the next challenge is finding a useful way to
 generate the paths.
 
 ![project 15 -- more CMY lines](https://pbs.twimg.com/media/DrhCP5jU8AECx68.jpg)
+
+### [16 (2018-11-09)](16)
+
+In this project I played around a bit with distorting grids. My
+geometry and trig skills have atrophied quite a bit since college so I
+had some big ambitions and ended up scaling them back a bit, but I'm
+reasonably happy with this. This design ended up using only the
+distorded parts to draw the green, and then used a second undistorted
+grid, but skipping some columns, for the red. The plotting isn't that
+efficient because I draw every connection between neighbors, in both
+directions, so each line is actually drawn twice. I know how to fix
+that, but at some point I just said "screw it".
+
+![project 16 -- distorted girds](https://pbs.twimg.com/media/DrpS0SMVAAE1M58.jpg)
