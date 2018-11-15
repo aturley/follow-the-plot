@@ -172,3 +172,19 @@ directions, so each line is actually drawn twice. I know how to fix
 that, but at some point I just said "screw it".
 
 ![project 16 -- distorted girds](https://pbs.twimg.com/media/DrpS0SMVAAE1M58.jpg)
+
+### [17 (2018-11-15)](17)
+
+I wrote some code to optimize the paths from project 15. Unfortunately
+I overlooked an edge case and so the optimization doesn't always do
+the right thing. Basically, it assumed that it could join two commands
+together if the first one ended at a point and then there was a later
+`move` command to that point; it would get rid of the move and put the
+other two commands together. This assumption falls apart if there are
+overlapping command segments that move in different directions. The
+result in this case is the diagonal lines near the lower middle of
+this plot.
+
+But hey, we learn as much from our mistakes as from our successes.
+
+![project 16 -- mistakes were made](https://pbs.twimg.com/media/DsFABnfVAAAk0ai.jpg)
