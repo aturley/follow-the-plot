@@ -197,3 +197,11 @@ own Perlin implementation in Pony, so I guess I have that now. This is
 the pumpkin spice latte of generative art.
 
 ![project 18 -- perlin](https://pbs.twimg.com/media/DsI_HFtU8AUL-Vf.jpg)
+
+### [19 (2018-11-16)](19)
+
+I experimented with using a pen adapter and some bush pens. I plotted
+this on a 3x5 card, I should probably try some larger plots to really
+take advantage of the distortion the brushes provide.
+
+![project 19 -- brush pens](https://pbs.twimg.com/media/DsKQPoFVYAA2quD.jpg)
