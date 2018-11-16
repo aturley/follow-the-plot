@@ -187,4 +187,13 @@ this plot.
 
 But hey, we learn as much from our mistakes as from our successes.
 
-![project 16 -- mistakes were made](https://pbs.twimg.com/media/DsFABnfVAAAk0ai.jpg)
+![project 17 -- mistakes were made](https://pbs.twimg.com/media/DsFABnfVAAAk0ai.jpg)
+
+### [18 (2018-11-16)](18)
+
+I went ahead and did the standard "grid distortion with Perlin noise"
+thing, mostly because I wanted to learn about Perlin noise. I did my
+own Perlin implementation in Pony, so I guess I have that now. This is
+the pumpkin spice latte of generative art.
+
+![project 18 -- perlin](https://pbs.twimg.com/media/DsI_HFtU8AUL-Vf.jpg)
