@@ -205,3 +205,11 @@ this on a 3x5 card, I should probably try some larger plots to really
 take advantage of the distortion the brushes provide.
 
 ![project 19 -- brush pens](https://pbs.twimg.com/media/DsKQPoFVYAA2quD.jpg)
+
+### [20 (2018-11-18)](20)
+
+I printed out the negative space in a Perlin-distorted grid. It is
+actually really boring so I'm preserving this here so that I remember
+just how boring it is.
+
+![project 20 -- negative Perlin](https://pbs.twimg.com/media/DsUJ5iTUcAAPLQA.jpg)
