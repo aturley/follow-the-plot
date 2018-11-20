@@ -212,4 +212,15 @@ I printed out the negative space in a Perlin-distorted grid. It is
 actually really boring so I'm preserving this here so that I remember
 just how boring it is.
 
-![project 20 -- negative Perlin](https://pbs.twimg.com/media/DsUJ5iTUcAAPLQA.jpg)
+![project 20 -- negative Perlin](https://pbs.twimg.com/media/DsUJ5iTUcAAPLQA.jpg
+
+### [21 (2018-11-19)](21)
+
+This is another image, this time of my son Arthur. I made lines out
+from points on either side of the image and the middle, drawing only
+on pixels where the intensity value was below a certain threshold. I
+had to play around with the placement of the initial points and the
+thresholds to get this. It could probably be improved a bit, but it is
+hard to get detail on a white kid with blond hair.
+
+![project 21 -- Arthur](https://pbs.twimg.com/media/DsZ6xjNXcAA2Keu.jpg)
