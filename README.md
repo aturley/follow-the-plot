@@ -232,3 +232,10 @@ one of those and I wrote a function to draw shapes within a circle. I
 need to experiment with the pens more.
 
 ![project 22 -- fine pens](https://pbs.twimg.com/media/Dst8xHmVAAA4mLQ.jpg)
+
+### [23 (2018-11-24)](23)
+
+I drew some arcs just to get a better idea of what the brush pens look
+like on larger objects and how closely you can draw brush lines.
+
+![project 23 -- more brush pens](https://pbs.twimg.com/media/Ds0N4Z_VAAIGzuc.jpg)
