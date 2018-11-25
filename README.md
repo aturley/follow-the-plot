@@ -224,3 +224,11 @@ thresholds to get this. It could probably be improved a bit, but it is
 hard to get detail on a white kid with blond hair.
 
 ![project 21 -- Arthur](https://pbs.twimg.com/media/DsZ6xjNXcAA2Keu.jpg)
+
+### [22 (2018-11-23)](22)
+
+I got some ultra-fine pens (down to 0.05mm) so I played around with
+one of those and I wrote a function to draw shapes within a circle. I
+need to experiment with the pens more.
+
+![project 22 -- fine pens](https://pbs.twimg.com/media/Dst8xHmVAAA4mLQ.jpg)
