@@ -239,3 +239,12 @@ I drew some arcs just to get a better idea of what the brush pens look
 like on larger objects and how closely you can draw brush lines.
 
 ![project 23 -- more brush pens](https://pbs.twimg.com/media/Ds0N4Z_VAAIGzuc.jpg)
+
+### [24 (2018-11-26)](24)
+
+This is an experiment with some different pens, including a Cricut
+metallic pen and one with a 0.05mm tip. In the lower part I was trying
+to play around with a kind of fade effect. The image is inspired very
+losely by an Ansel Adams photograph.
+
+![project 24 -- a forest of pens](https://pbs.twimg.com/media/Ds-gSbjU4AAQBoz.jpg)
