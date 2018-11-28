@@ -248,3 +248,9 @@ to play around with a kind of fade effect. The image is inspired very
 losely by an Ansel Adams photograph.
 
 ![project 24 -- a forest of pens](https://pbs.twimg.com/media/Ds-gSbjU4AAQBoz.jpg)
+
+### [25 (2018-11-27)](25)
+
+Just playing around with the brushes a bit more to see what they do.
+
+![project 25 -- even more brushes](https://pbs.twimg.com/media/DtDtBmjV4AAezgk.jpg)
