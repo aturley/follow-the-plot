@@ -38,6 +38,12 @@ actor Main
     return
   end
 
+  let curve: F64 = try
+    env.args(2)?.f64()
+  else
+    1
+  end
+
   let auth = try
     env.root as AmbientAuth
   else
@@ -74,7 +80,7 @@ actor Main
   for i in Range[F64](0, w - 1) do
     for j in Range[F64](0, h - 1) do
       let offset' = try intensity(i.usize())?(j.usize())? else 0 end
-      let offset = offset' * offset'
+      let offset = offset'.pow(curve)
       pcs
         .>command(PathMove.abs((i + offset) * factor, (j + offset)* factor))
         .>command(PathLine.abs(((i + 1) - offset) * factor, (j + offset) * factor))

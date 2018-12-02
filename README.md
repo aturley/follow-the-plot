@@ -249,8 +249,21 @@ losely by an Ansel Adams photograph.
 
 ![project 24 -- a forest of pens](https://pbs.twimg.com/media/Ds-gSbjU4AAQBoz.jpg)
 
-### [25 (2018-11-27)](25)
+### [26 (2018-11-30)](26)
 
-Just playing around with the brushes a bit more to see what they do.
+Polo Cat! To generate this image I took a picture that I had of Polo
+and then treated each pixel as an intersection of lines on a
+grid. Then I took the boxes formed by the intersections and distorted
+them by moving the corner of a box closer to the middle of the box as
+the intensity of the pixel in that corner increased. So for a black
+pixel the corners of the boxes at that intersection would all be right
+on the intersection, while for a white pixel the corners would be
+pushed to the middle of the box.
 
-![project 25 -- even more brushes](https://pbs.twimg.com/media/DtDtBmjV4AAezgk.jpg)
+I was trying to see if I could make the viewer see the dense
+intersections as dark spots. This kind of worked, but for completely
+black pixels the middle of the boxes around them are the things that
+stand out, so they look light instead of dark. That said, I still
+think the effect has promise.
+
+![project 26 -- polo cat](https://pbs.twimg.com/media/DtTBuMxWsAEGY1I.jpg)
