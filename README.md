@@ -267,3 +267,9 @@ stand out, so they look light instead of dark. That said, I still
 think the effect has promise.
 
 ![project 26 -- polo cat](https://pbs.twimg.com/media/DtTBuMxWsAEGY1I.jpg)
+
+### [27 (2019-01-20)](27)
+
+I drew some squares. They're kind of relaxing to look at.
+
+![project 27 -- some squares](https://pbs.twimg.com/media/DxTVm6DWoAAHDxu.jpg)
